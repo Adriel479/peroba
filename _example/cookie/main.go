@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/cookie"
+	sessions "github.com/Adriel479/peroba"
+	"github.com/Adriel479/peroba/cookie"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,7 +3,7 @@ package redis
 import (
 	"errors"
 
-	"github.com/gin-contrib/sessions"
+	sessions "github.com/Adriel479/peroba"
 	"github.com/go-redis/redis/v8"
 )
 

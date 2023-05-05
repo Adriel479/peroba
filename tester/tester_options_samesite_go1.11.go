@@ -1,3 +1,4 @@
+//go:build go1.11
 // +build go1.11
 
 package tester
@@ -8,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gin-contrib/sessions"
+	sessions "github.com/Adriel479/peroba"
 	"github.com/gin-gonic/gin"
 )
 

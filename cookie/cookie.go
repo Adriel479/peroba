@@ -1,7 +1,7 @@
 package cookie
 
 import (
-	"github.com/gin-contrib/sessions"
+	sessions "github.com/Adriel479/peroba"
 	gsessions "github.com/gorilla/sessions"
 )
 

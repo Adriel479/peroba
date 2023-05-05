@@ -3,8 +3,8 @@ package cookie
 import (
 	"testing"
 
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
+	sessions "github.com/Adriel479/peroba"
+	"github.com/Adriel479/peroba/tester"
 )
 
 var newStore = func(_ *testing.T) sessions.Store {
