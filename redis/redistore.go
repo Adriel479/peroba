@@ -278,7 +278,7 @@ func (s *RediStore) save(session *sessions.Session) error {
 	if age == 0 {
 		age = s.DefaultMaxAge
 	}
-	_, err = s.Client.SetEX(context.Background(), s.keyPrefix+session.ID, b, time.Duration(age)).Result()
+	_, err = s.Client.SetEX(context.Background(), s.keyPrefix+session.ID, b, time.Duration(age)*time.Second).Result()
 	return err
 }
 
