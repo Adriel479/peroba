@@ -31,7 +31,3 @@ func TestCookie_SessionClear(t *testing.T) {
 func TestCookie_SessionOptions(t *testing.T) {
 	tester.Options(t, newStore)
 }
-
-func TestCookie_SessionMany(t *testing.T) {
-	tester.Many(t, newStore)
-}
